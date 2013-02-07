@@ -3,13 +3,16 @@ Races Analitics
 
 Code for Generalized Linear Modeling of "Annual carbon Budget" (CB) of partecipant RACES LIFE + Project  
 related to the three sectors of  energy consumption: Electricity, Heating and Mobility.
-In collaboration to Dott. Valentina Grasso v.grasso@ibimet.cnr.it
-Osservatorio Ximeniano 25 february 2013 
+In collaboration to Dott. Valentina Grasso v.grasso@ibimet.cnr.it/grasso@lamma.rete.toscana.it
 
+Osservatorio Ximeniano 25 february 2013 
 =======
 
-Work title: "Evaluating communication efforts and urban climate constraints for energy savings. The experience of RACES project in 5 italian cities 
-
+Work title: 
+Evaluating communication efforts and urban climate constraints for energy savings. The experience of RACES project in 5 italian cities 
+=======
+V.Grasso and A.Crisci LaMMA - CNR / IBIMET CNR 
+----
 This repository have the data and R code for reproducible examples presented in the paper.
 
 Task A
