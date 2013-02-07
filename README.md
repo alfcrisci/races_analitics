@@ -10,7 +10,7 @@ Work title: Evaluating communication efforts and urban climate constraints for e
 
 This repository have the data and R code for reproducible examples presented in the paper.
 
-Results by each sectors using wald test on predictors: Surface : MQ; Number of family components : Componenti ;heating degree days ( 18 °C ) of 2008 : HDD_2008, Number of rainy days : gp_2008.
+Results by each sectors using wald test on predictors: Surface : MQ; Number of family components : Componenti ;heating degree days ( 18 ï¿½C ) of 2008 : HDD_2008, Number of rainy days : gp_2008.
 
 A) Modeling  Carbon budget 2008  Home - Electricity
 ==================================================
@@ -31,7 +31,7 @@ MQ                                 8.4285     1.5272   5.519 1.24e-07 ***
 Componenti                       189.4019    47.8016   3.962 0.000109 ***
 as.factor(Lavastoviglie)[T.1]    134.7873   108.2242   1.245 0.214672    
 as.factor(Condizionatore)[T.1]   -71.0683   137.1752  -0.518 0.605069    
----
+
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
 
 
@@ -57,7 +57,7 @@ Coefficients:
 HDD_2008        0.8727     0.2103   4.149 5.14e-05 ***
 MQ             12.2113     2.3081   5.291 3.51e-07 ***
 Componenti    192.6499    73.8197   2.610  0.00982 ** 
----
+
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
 
     Null deviance: 295492254  on 183  degrees of freedom
@@ -81,7 +81,7 @@ Coefficients:
 (Intercept)  453.743   1218.483   0.372   0.7100  
 gp_2008       15.992      9.157   1.747   0.0824 . (weak)
 Componenti   493.693    193.456   2.552   0.0115 *
----
+
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
 
 
