@@ -1,16 +1,33 @@
 Races Analitics
 ================
 
-Code for Generalized Linear Modeling of "Annual carbon Budeget" (CB) related to the three sectors of household energy consumption: Electricity, Heating and Mobility 
+Code for Generalized Linear Modeling of "Annual carbon Budget" (CB) of partecipant RACES LIFE + Project  
+related to the three sectors of  energy consumption: Electricity, Heating and Mobility.
 In collaboration to Dott. Valentina Grasso v.grasso@ibimet.cnr.it
+Osservatorio Ximeniano 25 february 2013 
 
 =======
 
-Work title: Evaluating communication efforts and urban climate constraints for energy savings. The experience of RACES project in 5 italian cities 
+Work title: "Evaluating communication efforts and urban climate constraints for energy savings. The experience of RACES project in 5 italian cities 
 
 This repository have the data and R code for reproducible examples presented in the paper.
 
-Results by each sectors using wald test on predictors: Surface : MQ; Number of family components : Componenti ;heating degree days ( 18 �C ) of 2008 : HDD_2008, Number of rainy days : gp_2008.
+Task A
+Significance (wald non parametric test) on predictors by each energy sectors 
+Relative importance of predictors with relaimpo R package
+
+Predictors:
+Surface : MQ
+Number of family components : Componenti 
+Heating degree days ( 18  °C ) on 2008 : HDD_2008
+Cooling degree days ( 18  °C ) of 2008 : HCD_2008
+
+Number of rainy days : gp_2008.
+
+Data numerosity: 184
+
+Cities involved: Firenze,Trento,Potenza,Bari,Modena.
+
 
 A) Modeling  Carbon budget 2008  Home - Electricity
 ==================================================
@@ -24,14 +41,20 @@ Deviance Residuals:
 
 Coefficients:
                                  Estimate Std. Error t value Pr(>|t|)    
-(Intercept)                    -3521.7715  3061.6307  -1.150 0.251629    
-HDD_2008                           0.7844     0.6801   1.153 0.250409    
+(Intercept)                    -3521.7715  3061.6307  -1.150 0.251629  
+
+HDD_2008                           0.7844     0.6801   1.153 0.250409   
+
 CDD_2008                           2.8867     2.3542   1.226 0.221812    
+
 MQ                                 8.4285     1.5272   5.519 1.24e-07 ***
+
 Componenti                       189.4019    47.8016   3.962 0.000109 ***
+
 as.factor(Lavastoviglie)[T.1]    134.7873   108.2242   1.245 0.214672    
+
 as.factor(Condizionatore)[T.1]   -71.0683   137.1752  -0.518 0.605069    
----
+
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
 
 
@@ -54,10 +77,13 @@ Deviance Residuals:
 Coefficients:
               Estimate Std. Error t value Pr(>|t|)    
 (Intercept) -1156.4471   440.5948  -2.625  0.00942 ** 
+
 HDD_2008        0.8727     0.2103   4.149 5.14e-05 ***
+
 MQ             12.2113     2.3081   5.291 3.51e-07 ***
+
 Componenti    192.6499    73.8197   2.610  0.00982 ** 
----
+
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
 
     Null deviance: 295492254  on 183  degrees of freedom
@@ -79,7 +105,9 @@ Deviance Residuals:
 Coefficients:
             Estimate Std. Error t value Pr(>|t|)  
 (Intercept)  453.743   1218.483   0.372   0.7100  
-gp_2008       15.992      9.157   1.747   0.0824 . (weak)
+
+gp_2008       15.992      9.157   1.747   0.0824 . (weak significance)
+
 Componenti   493.693    193.456   2.552   0.0115 *
 ---
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
