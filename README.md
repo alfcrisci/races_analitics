@@ -11,7 +11,7 @@ Osservatorio Ximeniano 25 february 2013
 Work title: 
 Evaluating communication efforts and urban climate constraints for energy savings. The experience of RACES project in 5 italian cities 
 =======
-V.Grasso and A.Crisci LaMMA - CNR / IBIMET CNR 
+Grasso V.,Crisci A. and Vaccari F. (2013)  LaMMA - Regione Toscana / IBIMET CNR 
 ----
 This repository have the data and R code for reproducible examples presented in the paper.
 
@@ -43,7 +43,8 @@ Deviance Residuals:
 -1883.91   -409.51    -87.45    395.54   2279.02  
 
 Coefficients:
-                                 Estimate Std. Error t value Pr(>|t|)    
+                                 Estimate Std. Error t value Pr(>|t|) 
+                                 
 (Intercept)                    -3521.7715  3061.6307  -1.150 0.251629  
 
 HDD_2008                           0.7844     0.6801   1.153 0.250409   
@@ -79,6 +80,7 @@ Deviance Residuals:
 
 Coefficients:
               Estimate Std. Error t value Pr(>|t|)    
+              
 (Intercept) -1156.4471   440.5948  -2.625  0.00942 ** 
 
 HDD_2008        0.8727     0.2103   4.149 5.14e-05 ***
@@ -107,6 +109,7 @@ Deviance Residuals:
 
 Coefficients:
             Estimate Std. Error t value Pr(>|t|)  
+            
 (Intercept)  453.743   1218.483   0.372   0.7100  
 
 gp_2008       15.992      9.157   1.747   0.0824 . (weak significance)
